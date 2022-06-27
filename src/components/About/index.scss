@@ -1,0 +1,37 @@
+.home{
+    display: flex;
+    height: 100vh;
+    font-family:'Montserrat', sans-serif;
+    color:black
+}
+
+.home .home-content {
+    align-content: center;
+    display: flex;
+    display: inline;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.home .home-content #headshot {
+    border: solid 25px;
+}
+
+/* About */
+.about{
+    border: solid 10px;
+    margin: 50px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+}
+
+.about .title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
+}
+
+.about .text{
+    margin: 15px;
+}
