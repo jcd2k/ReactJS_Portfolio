@@ -17,3 +17,126 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.widthmax{
+    max-width: 1400px;
+    padding: 0 70 px;
+    margin: auto;
+}
+
+/*Navigation Menu*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    background: navy;
+    font-family:'Montserrat', sans-serif;
+}
+
+.navbar .widthmax{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .symbol a{
+    color: ghostwhite;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    justify-content: right;
+}
+
+.navbar .menu li a{
+    color: ghostwhite;
+    font-size: 22px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+/* Home */
+.home{
+    display: flex;
+    height: 100vh;
+    font-family:'Montserrat', sans-serif;
+    color:black
+}
+
+.home .home-content {
+    align-content: center;
+    display: flex;
+    display: inline;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.home .home-content #headshot {
+    border: solid 25px;
+}
+
+/* About */
+.about{
+    border: solid 10px;
+    margin: 50px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+}
+
+.about .title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
+}
+
+.about .text{
+    margin: 15px;
+}
+
+/* Skills & Projects Layout */
+.skills-projects{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Skills */
+.skills-content{
+    border: solid 10px;
+    margin: 50px;
+    width: 100vh;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+}
+
+.skills-content .title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Projects */
+.projects-content{
+    border: solid 10px;
+    margin: 50px;
+    width: 100vh;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+}
+
+.projects-content .title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
